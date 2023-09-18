@@ -12,7 +12,7 @@ The RIF Wallet Starter Kit contains a setup script for installation of some of t
 * [Getting started](#getting-started)
 * [Troubleshooting](#troubleshooting)
 * [Uninstalling the tool](#uninstalling-the-tool)
-* [Where to download](#downloading-the-app)
+* [Where to download?](#downloading-the-app)
 * [Next steps](#next-steps)
 
 ## Introduction
