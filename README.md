@@ -114,7 +114,7 @@ The RIF Wallet App is available for download on [IOS]() and the [Android]() app 
 
 ## Next Steps
 
-* Clone the [RIF Wallet](https://github.com/rsksmart/swallet.git) and [RIF Wallet Services](https://github.com/rsksmart/rif-wallet-services) Repo
+* Clone the [RIF Wallet](https://github.com/rsksmart/rif-wallet) and [RIF Wallet Services](https://github.com/rsksmart/rif-wallet-services) Repo
 * Install other deps like [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) or Android Studio
 * Start integrating, see the Developer Reference Section in the [RIF Wallet Documentation]().
 
