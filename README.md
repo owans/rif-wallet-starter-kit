@@ -2,7 +2,7 @@
 
 ![RIF Wallet Banner](./src/rifwallet_custom%20(1).gif)
 
-The RIF Wallet Starter Kit contains a setup script for installation of some of the tools and dependencies needed to set up and run the RIF Wallet Services locally. This README contains a guide on how to run the setup scripts.
+The RIF Wallet Starter Kit contains a setup script for installation of some of the tools and dependencies needed to set up and run the RIF Wallet App and RIF Wallet Services locally. This README contains a guide on how to run the setup scripts.
 
 ## Table of Contents
 
@@ -65,10 +65,43 @@ sh ./install.sh
 
 This script checks if tool already exists, if not, it then downloads and install the tool.
 
+## Uninstalling the tool
+
+To uninstall, run the command below:
+
+```shell
+sh ./uninstall.sh
+```
+
+Note: This command uninstalls the tools listed in [Tools](#tools).
+
+## Next steps
+### Downloading the app
+
+The RIF Wallet App is available for download on [IOS]() and the [Android]() app stores.
+
+### Clone the Repos 
+
+- [RIF Wallet](https://github.com/rsksmart/rif-wallet) and [RIF Wallet Services](https://github.com/rsksmart/rif-wallet-services) Repos.
+
+### Download and Install deps 
+- Ensure one of the following deps is installed, [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) or [Android Studio](https://developer.android.com/studio) depending on your platform.
+
+### Setup the RIF Wallet Services 
+
+The RIF Wallet Services provide a basic account querying API to bootstrap your app.
+
+See the guide on [How to setup and run the App with Local Services]() or use the [README](https://github.com/rsksmart/rif-wallet-services#readme)
+
+### Setup the RIF Wallet App
+
+The RIF Wallet is a Smart Wallet for Rootstock.
+
+To start the smart wallet, ensure you are connected to the server locally by following the steps in [Running with Local Services](/README.md#setup-the-rif-wallet-services). Follow the steps below or see the setup instructions in the [README](https://github.com/rsksmart/rif-wallet#install-and-setup).
+
 ## Troubleshooting
 
-### Error: Requirements installation failed with status: 1.
-
+> Error: Requirements installation failed with status: 1.
 RVM is not a function, selecting rubies with 'rvm use ...' will not work.
 
 You need to change your terminal emulator preferences to allow login shell.
@@ -94,28 +127,20 @@ chsh -s /bin/zsh
 
 > Response: Changing shell for $user. Enter password and you should have successfully run the installation script.
 
-You should get the response below if installation is successful:
+You should see a `Setup completed` response if installation was successful:
 
-`Setup completed`
+For more troubleshooting options, see the Developer Reference Section in the [RIF Wallet Documentation]().
 
-## Uninstalling the tool
+## Frequently Asked Questions
 
-To uninstall, run the command below:
+* See the [FAQ]() section in the RIF Wallet Documentation.
 
-```shell
-sh ./uninstall.sh
-```
+## Contributing
 
-Note: This command uninstalls the tools listed in [Tools](#tools).
+Coming soon.
 
-## Downloading the app
-
-The RIF Wallet App is available for download on [IOS]() and the [Android]() app stores.
-
-## Next Steps
-
-* Clone the [RIF Wallet](https://github.com/rsksmart/rif-wallet) and [RIF Wallet Services](https://github.com/rsksmart/rif-wallet-services) Repo
-* Install other deps like [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) or Android Studio
-* Start integrating, see the Developer Reference Section in the [RIF Wallet Documentation]().
-
-Thank you.
+## Important Links
+* [RIF Wallet App](https://github.com/rsksmart/rif-wallet)
+* [RIF Wallet Services](https://github.com/rsksmart/rif-wallet-services)
+* [Rootstock Developer Portal](https://dev.rootstock.io/)
+* [RIF Wallet Libraries](https://github.com/rsksmart/rif-wallet-libs)
